@@ -1,0 +1,125 @@
+html {
+  font-family: "Open Sans", sans serif;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  width: 100%;
+  height: 5em;
+  left: 0px;
+  top: 0px;
+  background: #FFE521;
+}
+
+.logo {
+  align-self: flex-start;
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.link-to-website {
+  margin-left: auto;
+  margin-right: 1em;
+  margin-top: 2em;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FF009E;
+}
+
+.primera-foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6em;
+  width: 60%;
+  height: auto;
+}
+
+.somos {
+  font-family: "Bitter", sans serif;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  width: 50%;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.lalo-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  height: auto;
+  align-items: center;
+  margin-top: -4em;
+  font-size: 1.2em;
+}
+
+.lalo {
+  margin-left: 2em;
+  margin-top: 6em;
+  width: 35%;
+  height: auto;
+  flex: 1;
+}
+
+.texto-derecha-lalo {
+  flex: 1;
+  margin-left: 2em;
+  margin-top: 3em;
+}
+
+.para-llegar {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.numeros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  max-width: 100%;
+}
+
+.numero {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4em;
+  color: #FF009E;
+  text-align: center;
+  padding-bottom: -100px;
+}
+
+.bajada-numeros {
+  margin-top: -4em;
+  border-bottom: 0.5em solid #FFE521;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  width: 15em;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #F2F2F2;
+  height: 30em;
+  width: 97%;
+  border-radius: 1em;
+  text-align: center;
+}
