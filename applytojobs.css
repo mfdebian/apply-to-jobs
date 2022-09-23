@@ -1,6 +1,7 @@
 html {
   font-family: "Open Sans", sans serif;
   position: relative;
+  font-weight: 400;
 }
 
 .header {
@@ -42,40 +43,36 @@ html {
 .somos {
   font-family: "Bitter", sans serif;
   display: block;
-  text-align: center;
+  width: 80%;
   font-weight: 600;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
 }
 
 .lalo-container {
   display: flex;
-  flex-flow: row wrap;
-  width: 90%;
-  height: auto;
-  align-items: center;
-  margin-top: -4em;
-  font-size: 1.2em;
+  flex-direction: column;
 }
 
 .lalo {
-  margin-left: 2em;
-  margin-top: 6em;
-  width: 35%;
-  height: auto;
-  flex: 1;
-}
-
-.texto-derecha-lalo {
-  flex: 1;
-  margin-left: 2em;
-  margin-top: 3em;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .para-llegar {
-  font-size: 1.2em;
+  display: inline-block;
   font-weight: 700;
+  font-size: 0.9em;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.como-equipo {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .numeros {
