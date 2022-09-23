@@ -80,26 +80,26 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2.5em;
-  max-width: 100%;
+  margin-top: 1em;
 }
 
 .numero {
   font-family: "Bitter";
-  font-style: bold;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 64px;
   color: #FF009E;
   text-align: center;
-  padding-bottom: -100px;
+  width: max-content;
+  margin: auto;
 }
 
 .bajada-numeros {
   border-bottom: 0.5em solid #FFE521;
-  padding-bottom: 1em;
   font-size: 1.2em;
-  width: 15em;
   text-align: center;
+  width: 15em;
+  padding-bottom: 1em;
+  margin-top: auto;
 }
 
 .footer-container {
