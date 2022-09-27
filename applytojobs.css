@@ -113,7 +113,7 @@ html {
 
 .footer {
   background-color: #F2F2F2;
-  height: 30em;
+  height: 90%;
   width: 97%;
   border-radius: 1em;
   text-align: center;
@@ -142,9 +142,34 @@ tr:first-of-type {
 
 tr {
   width: 45%;
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 3em;
+  text-align: left;
+  margin: auto;
+  padding-left: 1em;
+  line-height: 1.2em;
 }
+
+.resumator-jobs-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumator-job-listings {
+  margin-left: 0.7em;
+}
+
+.resumator-job-location-column {
+  color: #B1B1B1;
+  background-image: url("https://user-images.githubusercontent.com/12631491/192560014-27efda42-04c1-47c0-9e2e-0ee52e94bafa.svg");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  margin-top: 8px;
+  font-size: small;
+}
+
 
 /* sitio de postulacion */
 
