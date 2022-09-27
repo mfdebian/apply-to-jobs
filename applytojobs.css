@@ -1,3 +1,5 @@
+/* sitio principal */
+
 html {
   font-family: "Open Sans", sans serif;
   position: relative;
@@ -26,6 +28,7 @@ html {
 .link-to-website, .link-to-website:visited {
   display: block;
   font-size: 12px;
+  font-weight: 600;
   width: 20%;
   margin-left: auto;
   margin-right: 1em;
@@ -140,5 +143,61 @@ tr:first-of-type {
 tr {
   width: 45%;
   display: block;
-  border: red solid;
+  padding-bottom: 3em;
+}
+
+/* sitio de postulacion */
+
+.header-postulacion {
+  display: flex;
+  flex-flow: row wrap;
+  position: absolute;
+  width: 100%;
+  height: 12em;
+  left: 0px;
+  top: 0px;
+  background: #FFE521;
+}
+
+.link-to-jobs, .link-to-jobs:visited {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  width: 20%;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #FF009E;
+}
+
+.logo-jobs {
+  align-self: flex-start;
+  height: 15%;
+  margin-left: 3%;
+  margin-top: 0.8em;
+}
+
+#resumator-job-title {
+  font-family: "Bitter", sans serif;
+  font-weight: 600;
+  margin-left: 0.8em;
+  margin-top: 0.8em;
+}
+
+.location-div-jobs {
+  margin-right: 15em;
+  width: 20em;
+  height: 1.5em;
+  margin-left: 0.8em;
+  background-color: #f1da1f;
+}
+
+.pin-emoji::before {
+  content: '📍';
+  margin-left: 0.2em;
+}
+
+#resumator-job-location {
+  font-size: small;
 }
