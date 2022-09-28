@@ -211,18 +211,78 @@ tr {
 }
 
 .location-div-jobs {
-  margin-right: 15em;
-  width: 20em;
-  height: 1.5em;
-  margin-left: 0.8em;
-  background-color: #f1da1f;
-}
-
-.pin-emoji::before {
-  content: '📍';
-  margin-left: 0.2em;
+  display: flex;
+  flex-direction: row;
 }
 
 #resumator-job-location {
+  display: inline-block;
+  background-image: url("https://user-images.githubusercontent.com/12631491/192560014-27efda42-04c1-47c0-9e2e-0ee52e94bafa.svg");
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  font-size: 0.7em;
+  height: 2em;
+  padding-left: 1.8em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  padding-right: 1em;
+  background-color: #f1da1f;
+}
+
+#resumator-job-type {
+  display: inline;
+  white-space: nowrap;
+  font-size: 0.7em;
+  height: 2em;
+  padding-left: 1.8em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  padding-right: 1em;
+  background-color: #f1da1f;
+}
+
+#resumator-job-experience {
+  display: inline;
+  white-space: nowrap;
+  font-size: 0.7em;
+  height: 2em;
+  padding-left: 1em;
+  margin-right: 1em;
+  background-color: #f1da1f;
+}
+
+#resumator-job-description {
+  margin-top: 13em;
+  text-align: center;
+  white-space: break-spaces;
+}
+
+#resumator-message-required {
   font-size: small;
+  color: #87919b;
+}
+
+.resumator-resume-text {
+  font-size: small;
+  padding: 2px;
+}
+
+.resumator-field {
+  width: 95%;
+  height: 2em;
+}
+
+#resumator-gpa, #resumator-gpa-field {
+  display: none;
+}
+
+#resumator-submit-resume {
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid transparent;
+  width: 100%;
+  margin-top: 1em;
+  padding: 15px 0;
+  color: #fff;
+  background-color: #FF009E;
 }
