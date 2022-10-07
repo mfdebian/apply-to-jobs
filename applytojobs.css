@@ -311,3 +311,80 @@ tr {
   left: 0px;
   background-color: #FFE521;
 }
+
+@media only screen and (min-width: 750px) {
+
+  .header {
+    height: 6em;
+  }
+
+  .logo {
+    height: 25%;
+    margin-top: 2.1rem;
+  }
+
+  .link-to-website, .link-to-website:visited {
+    font-size: small;
+    width: auto;
+    margin-right: 2em;
+    margin-top: 2.5rem;
+  }
+
+  .primera-foto {
+    width: 96%;
+    margin-left: 0.8em;
+    margin-top: 7em;
+  }
+
+  .somos {
+    font-size: larger;
+    margin-top: 2.2em;
+  }
+
+  .lalo-container {
+    flex-direction: row;
+    margin-top: 3em;
+  }
+
+  .lalo {
+    width: 23em;
+    margin-left: 0.8em;
+    height: 99%;
+  }
+
+  .para-llegar {
+    margin-left: 1.5em;
+    white-space: nowrap;
+    margin-top: 2em;
+    font-size: 1em;
+  }
+
+  .texto-derecha-lalo {
+    flex-direction: column;
+  }
+
+  .como-equipo {
+    width: 90%;
+    text-align: start;
+  }
+
+  .numeros {
+    font-size: small;
+    gap: 2em;
+    margin-top: 4em;
+  }
+
+  .numero {
+    font-size: 50px;
+  }
+
+  tr{
+    height: 2em;
+  }
+
+  .resumator-job-listings {
+    width: 80%;
+    margin-left: 3.5em;
+    margin-top: 1em;
+  }
+}
