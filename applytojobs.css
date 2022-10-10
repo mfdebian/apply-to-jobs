@@ -326,7 +326,7 @@ tr {
   .link-to-website, .link-to-website:visited {
     font-size: small;
     width: auto;
-    margin-right: 2em;
+    margin-right: 3%;
     margin-top: 2.5rem;
   }
 
@@ -386,5 +386,62 @@ tr {
     width: 80%;
     margin-left: 3.5em;
     margin-top: 1em;
+  }
+
+  .header-postulacion {
+    height: 14em;
+  }
+
+  .link-to-jobs, .link-to-jobs:visited {
+    font-size: small;
+    margin-left: 3%;
+    margin-top: 2.5em;
+  }
+
+  .logo-jobs {
+    margin-right: 97%;
+    height: 7%;
+  }
+
+  #resumator-job-title {
+    font-size: 22px;
+    height: 1.5em;
+    margin-top: 0;
+    margin-left: 3%;
+    margin-bottom: -1em;
+  }
+
+  .location-div-jobs {
+    margin-left: 2%;
+    padding-right: 97%;
+  }
+
+  #resumator-job-location {
+    margin-left: 2%;
+    margin-right: 0%;
+  }
+  
+  #resumator-job-type {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  #resumator-job-experience {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .description-application-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16em;
+  }
+
+  #resumator-job-description {
+    margin-top: 0%;
+    text-align: left;
+    white-space: pre-line;
+    font-size: 12px;
+    margin-left: 3%;
   }
 }
