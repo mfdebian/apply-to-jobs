@@ -67,8 +67,9 @@ html {
   display: inline-block;
   font-weight: 700;
   font-size: 0.9em;
-  margin: auto;
+  margin-left: 3%;
   margin-top: 1em;
+  margin-bottom: auto;
 }
 
 .como-equipo {
@@ -217,14 +218,16 @@ tr {
 
 #resumator-job-location {
   display: inline-block;
-  background-image: url("https://user-images.githubusercontent.com/12631491/192560014-27efda42-04c1-47c0-9e2e-0ee52e94bafa.svg");
+  background-image: url("https://user-images.githubusercontent.com/12631491/195885546-06402800-5691-49db-aaec-7c5e7b1f1614.svg");
+  background-size: 1em;
   background-repeat: no-repeat;
+  background-position: 0.5em;
   white-space: nowrap;
   font-size: 0.7em;
+  line-height: 1.8;
   height: 2em;
   padding-left: 1.8em;
   margin-left: 0.5em;
-  margin-right: 1em;
   padding-right: 1em;
   background-color: #f1da1f;
 }
@@ -232,11 +235,16 @@ tr {
 #resumator-job-type {
   display: inline;
   white-space: nowrap;
+  background-image: url("https://user-images.githubusercontent.com/12631491/195882824-a57d35e2-63bb-4b4d-af4b-095addedb29c.svg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 0.5em;
   font-size: 0.7em;
+  line-height: 1.8;
   height: 2em;
   padding-left: 1.8em;
   margin-left: 0.5em;
-  margin-right: 1em;
+  margin-right: 0.5em;
   padding-right: 1em;
   background-color: #f1da1f;
 }
@@ -244,7 +252,14 @@ tr {
 #resumator-job-experience {
   display: inline;
   white-space: nowrap;
+  background-image: url("https://user-images.githubusercontent.com/12631491/195885957-32dfb950-0859-43a4-ba09-eb8f7c36fb42.svg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 0.5em;
   font-size: 0.7em;
+  text-indent: 1em;
+  line-height: 1.8;
+  width: 13em;
   height: 2em;
   padding-left: 1em;
   margin-right: 1em;
@@ -440,6 +455,7 @@ tr {
   #resumator-job-experience {
     margin-left: 0%;
     margin-right: 0%;
+    padding-right: 1em;
   }
 
   .description-application-container {
