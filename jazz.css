@@ -217,6 +217,7 @@ tr {
 .location-div-jobs {
   display: flex;
   flex-direction: row;
+  margin-left: 2%;
 }
 
 #resumator-job-location {
@@ -273,6 +274,8 @@ tr {
   margin-top: 13em;
   text-align: center;
   white-space: break-spaces;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #resumator-message-required {
@@ -440,7 +443,7 @@ tr {
   }
 
   .location-div-jobs {
-    margin-left: 2%;
+    margin-left: 3%;
     padding-right: 97%;
     width: 0%;
   }
@@ -474,13 +477,13 @@ tr {
     white-space: pre-line;
     margin-left: 3%;
     margin-top: 0%;
-    margin-right: 10%;
+    margin-right: 5%;
   }
 
   .application-footer-container {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 45%;
     margin-right: 3%;
   }
 
@@ -502,6 +505,14 @@ tr {
 
   tbody {
     margin-left: 20%
+  }
+
+  #resumator-job-description {
+    margin-right: 10%;
+  }
+
+  .application-footer-container {
+    width: 70%;
   }
 
 }
