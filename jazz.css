@@ -484,6 +484,10 @@ tr {
     margin-right: 5%;
   }
 
+  #resumator-questionnaire-q1076694 {
+    width: unset;
+  }
+
   .application-footer-container {
     display: flex;
     flex-direction: column;
