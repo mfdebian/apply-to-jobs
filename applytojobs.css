@@ -42,26 +42,34 @@ html {
   width: 90%;
   margin-left: 5%;
   margin-top: 6em;
+  margin-bottom: 2em;
 }
 
 .somos {
   font-family: "Bitter", sans serif;
   display: block;
-  width: 80%;
+  width: 95%;
   font-weight: 600;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.nuestra-mision {
+  color: #FF009E;
 }
 
 .lalo-container {
   display: flex;
   flex-direction: column;
+  margin-top: 3em;
 }
 
 .lalo {
   width: 90%;
   margin-left: 5%;
+  margin-bottom: 2em;
 }
 
 .para-llegar {
@@ -369,7 +377,7 @@ tr {
 
   .lalo-container {
     flex-direction: row;
-    margin-top: 3em;
+    margin-top: 5em;
   }
 
   .lalo {
