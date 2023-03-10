@@ -5,7 +5,7 @@ html {
   font-family: "Open Sans", sans serif;
   position: relative;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 24px;
 }
 
 .header {
@@ -34,7 +34,7 @@ html {
   text-align: right;
   width: 40%;
   margin-left: auto;
-  margin-top: 1rem;
+  margin-top: 1.4rem;
   margin-right: 3%;
   text-decoration: none;
   color: #FF009E;
@@ -42,14 +42,13 @@ html {
 
 .primera-foto {
   width: 100%;
-  margin-top: 8em;
+  margin-top: 6.5em;
   margin-bottom: 1em;
 }
 
 .somos {
   font-family: "Bitter", sans serif;
   display: block;
-  font-size: 18px;
   width: 70%;
   font-weight: 600;
   text-align: center;
@@ -73,7 +72,6 @@ html {
 .maca {
   margin-bottom: 2em;
   border-radius: 5%;
-  background-color: red;
 }
 
 .texto-derecha-maca {
@@ -104,7 +102,7 @@ html {
 .numero {
   font-family: "Bitter";
   font-weight: 700;
-  font-size: 48px;
+  font-size: 64px;
   color: #FF009E;
   text-align: center;
   width: max-content;
@@ -351,25 +349,25 @@ tr {
 @media only screen and (min-width: 750px) {
 
   .header {
-    height: 6em;
+    height: 6.5em;
   }
 
   .logo {
     height: 25%;
-    margin-top: 2.1rem;
+    margin-top: 2.4rem;
   }
 
   .link-to-website, .link-to-website:visited {
-    font-size: small;
+    font-size: 20px;
     width: auto;
     margin-right: 3%;
-    margin-top: 2.5rem;
+    margin-top: 2.8rem;
   }
 
   .primera-foto {
     width: 96%;
-    margin-left: 0.8em;
-    margin-top: 7em;
+    margin-left: 2%;
+    margin-top: 8em;
   }
 
   .somos {
@@ -405,13 +403,13 @@ tr {
   }
 
   .numeros {
-    font-size: small;
-    gap: 2em;
+    font-size: 20px;
+    gap: 3em;
     margin-top: 4em;
   }
 
   .numero {
-    font-size: 50px;
+    font-size: 70px;
   }
 
   tr{
@@ -420,8 +418,7 @@ tr {
 
   .resumator-job-listings {
     width: 80%;
-    margin-left: 3.5em;
-    margin-top: 1em;
+    margin-left: 2.5em;
   }
 
   .header-postulacion {

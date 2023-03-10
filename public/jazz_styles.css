@@ -5,7 +5,7 @@ html {
   font-family: "Open Sans", sans serif;
   position: relative;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 24px;
 }
 
 .header {
@@ -30,24 +30,26 @@ html {
 .link-to-website, .link-to-website:visited {
   display: block;
   font-weight: 600;
+  font-size: 16px;
+  text-align: right;
   width: 40%;
   margin-left: auto;
-  margin-top: 1rem;
+  margin-top: 1.4rem;
+  margin-right: 3%;
   text-decoration: none;
   color: #FF009E;
 }
 
 .primera-foto {
   width: 100%;
-  margin-top: 8em;
+  margin-top: 6.5em;
   margin-bottom: 1em;
 }
 
 .somos {
   font-family: "Bitter", sans serif;
   display: block;
-  font-size: 24px;
-  width: 95%;
+  width: 70%;
   font-weight: 600;
   text-align: center;
   margin-left: auto;
@@ -59,19 +61,20 @@ html {
   color: #FF009E;
 }
 
-.lalo-container {
+.maca-container {
   display: flex;
   flex-direction: column;
   margin-top: 3em;
+  margin-left: 10%;
+  width: 80%;
 }
 
-.lalo {
-  width: 90%;
-  margin-left: 5%;
+.maca {
   margin-bottom: 2em;
+  border-radius: 5%;
 }
 
-.texto-derecha-lalo {
+.texto-derecha-maca {
   margin-bottom: 1em;
 }
 
@@ -99,7 +102,7 @@ html {
 .numero {
   font-family: "Bitter";
   font-weight: 700;
-  font-size: 48px;
+  font-size: 64px;
   color: #FF009E;
   text-align: center;
   width: max-content;
@@ -196,9 +199,9 @@ tr {
 
 .link-to-jobs, .link-to-jobs:visited {
   display: block;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
-  width: 20%;
+  width: 30%;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: 1rem;
@@ -208,7 +211,7 @@ tr {
 
 .logo-jobs {
   align-self: flex-start;
-  height: 15%;
+  height: 10%;
   margin-left: 3%;
   margin-top: 0.8em;
 }
@@ -216,8 +219,10 @@ tr {
 #resumator-job-title {
   font-family: "Bitter", sans serif;
   font-weight: 600;
-  margin-left: 0.8em;
+  font-size: 22px;
+  margin-left: 3%;
   margin-top: 0.8em;
+  margin-bottom: 0.4em;
 }
 
 .location-div-jobs {
@@ -236,9 +241,7 @@ tr {
   line-height: 1.8;
   height: 2em;
   padding-left: 1.8em;
-  margin-left: 0.5em;
-  padding-right: 1em;
-  background-color: #f1da1f;
+  margin-left: 1%;
 }
 
 #resumator-job-type {
@@ -254,8 +257,6 @@ tr {
   padding-left: 1.8em;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  padding-right: 1em;
-  background-color: #f1da1f;
 }
 
 #resumator-job-experience {
@@ -272,7 +273,6 @@ tr {
   height: 2em;
   padding-left: 1em;
   margin-right: 1em;
-  background-color: #f1da1f;
 }
 
 #resumator-job-description {
@@ -349,25 +349,25 @@ tr {
 @media only screen and (min-width: 750px) {
 
   .header {
-    height: 6em;
+    height: 6.5em;
   }
 
   .logo {
     height: 25%;
-    margin-top: 2.1rem;
+    margin-top: 2.4rem;
   }
 
   .link-to-website, .link-to-website:visited {
-    font-size: small;
+    font-size: 20px;
     width: auto;
     margin-right: 3%;
-    margin-top: 2.5rem;
+    margin-top: 2.8rem;
   }
 
   .primera-foto {
     width: 96%;
-    margin-left: 0.8em;
-    margin-top: 7em;
+    margin-left: 2%;
+    margin-top: 8em;
   }
 
   .somos {
@@ -375,12 +375,12 @@ tr {
     margin-top: 2.2em;
   }
 
-  .lalo-container {
+  .maca-container {
     flex-direction: row;
     margin-top: 5em;
   }
 
-  .lalo {
+  .maca {
     width: 23em;
     margin-left: 0.8em;
     height: 99%;
@@ -393,7 +393,7 @@ tr {
     font-size: 1em;
   }
 
-  .texto-derecha-lalo {
+  .texto-derecha-maca {
     flex-direction: column;
   }
 
@@ -403,13 +403,13 @@ tr {
   }
 
   .numeros {
-    font-size: small;
-    gap: 2em;
+    font-size: 20px;
+    gap: 3em;
     margin-top: 4em;
   }
 
   .numero {
-    font-size: 50px;
+    font-size: 70px;
   }
 
   tr{
@@ -418,8 +418,7 @@ tr {
 
   .resumator-job-listings {
     width: 80%;
-    margin-left: 3.5em;
-    margin-top: 1em;
+    margin-left: 2.5em;
   }
 
   .header-postulacion {
@@ -451,11 +450,6 @@ tr {
     width: 0%;
   }
 
-  #resumator-job-location {
-    margin-left: 2%;
-    margin-right: 0%;
-  }
-  
   #resumator-job-type {
     margin-left: 0%;
     margin-right: 0%;
