@@ -30,12 +30,9 @@ html {
 .link-to-website, .link-to-website:visited {
   display: block;
   font-weight: 600;
-  font-size: 16px;
-  text-align: right;
   width: 40%;
   margin-left: auto;
   margin-top: 1rem;
-  margin-right: 3%;
   text-decoration: none;
   color: #FF009E;
 }
@@ -49,8 +46,8 @@ html {
 .somos {
   font-family: "Bitter", sans serif;
   display: block;
-  font-size: 18px;
-  width: 70%;
+  font-size: 24px;
+  width: 95%;
   font-weight: 600;
   text-align: center;
   margin-left: auto;
@@ -199,9 +196,9 @@ tr {
 
 .link-to-jobs, .link-to-jobs:visited {
   display: block;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
-  width: 30%;
+  width: 20%;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: 1rem;
@@ -211,7 +208,7 @@ tr {
 
 .logo-jobs {
   align-self: flex-start;
-  height: 10%;
+  height: 15%;
   margin-left: 3%;
   margin-top: 0.8em;
 }
@@ -219,10 +216,8 @@ tr {
 #resumator-job-title {
   font-family: "Bitter", sans serif;
   font-weight: 600;
-  font-size: 22px;
-  margin-left: 3%;
+  margin-left: 0.8em;
   margin-top: 0.8em;
-  margin-bottom: 0.4em;
 }
 
 .location-div-jobs {
@@ -241,7 +236,9 @@ tr {
   line-height: 1.8;
   height: 2em;
   padding-left: 1.8em;
-  margin-left: 1%;
+  margin-left: 0.5em;
+  padding-right: 1em;
+  background-color: #f1da1f;
 }
 
 #resumator-job-type {
@@ -257,6 +254,8 @@ tr {
   padding-left: 1.8em;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  padding-right: 1em;
+  background-color: #f1da1f;
 }
 
 #resumator-job-experience {
@@ -273,6 +272,7 @@ tr {
   height: 2em;
   padding-left: 1em;
   margin-right: 1em;
+  background-color: #f1da1f;
 }
 
 #resumator-job-description {
@@ -451,6 +451,11 @@ tr {
     width: 0%;
   }
 
+  #resumator-job-location {
+    margin-left: 2%;
+    margin-right: 0%;
+  }
+  
   #resumator-job-type {
     margin-left: 0%;
     margin-right: 0%;
