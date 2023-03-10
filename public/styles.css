@@ -1,4 +1,4 @@
-/* sitio principal */
+/* sitio principal HOME */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap');
 
 html {
@@ -7,6 +7,9 @@ html {
   font-weight: 400;
   font-size: 24px;
 }
+
+/* Mobile first approach, las siguientes son las reglas
+para la versión de teléfono */
 
 .header {
   display: flex;
@@ -184,7 +187,7 @@ tr {
 }
 
 
-/* sitio de postulacion */
+/* sitio de postulacion: APPLY */
 
 .header-postulacion {
   display: flex;
@@ -346,6 +349,8 @@ tr {
   background-color: #FFE521;
 }
 
+/* Las siguientes reglas son para tablets y desktop */
+
 @media only screen and (min-width: 750px) {
 
   .header {
@@ -494,6 +499,8 @@ tr {
   }
 
 }
+
+/* Las siguientes reglas son para desktop */
 
 @media only screen and (min-width: 970px) {
   .para-llegar {
