@@ -62,19 +62,21 @@ html {
   color: #FF009E;
 }
 
-.lalo-container {
+.maca-container {
   display: flex;
   flex-direction: column;
   margin-top: 3em;
+  margin-left: 10%;
+  width: 80%;
 }
 
-.lalo {
-  width: 90%;
-  margin-left: 5%;
+.maca {
   margin-bottom: 2em;
+  border-radius: 5%;
+  background-color: red;
 }
 
-.texto-derecha-lalo {
+.texto-derecha-maca {
   margin-bottom: 1em;
 }
 
@@ -375,12 +377,12 @@ tr {
     margin-top: 2.2em;
   }
 
-  .lalo-container {
+  .maca-container {
     flex-direction: row;
     margin-top: 5em;
   }
 
-  .lalo {
+  .maca {
     width: 23em;
     margin-left: 0.8em;
     height: 99%;
@@ -393,7 +395,7 @@ tr {
     font-size: 1em;
   }
 
-  .texto-derecha-lalo {
+  .texto-derecha-maca {
     flex-direction: column;
   }
 
