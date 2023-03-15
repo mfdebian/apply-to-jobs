@@ -52,7 +52,7 @@ para la versión de teléfono */
 .somos {
   font-family: "Bitter", sans serif;
   display: block;
-  width: 70%;
+  width: 80%;
   font-weight: 600;
   text-align: center;
   margin-left: auto;
@@ -67,24 +67,24 @@ para la versión de teléfono */
 .maca-container {
   display: flex;
   flex-direction: column;
-  margin-top: 3em;
   margin-left: 10%;
   width: 80%;
 }
 
 .maca {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   border-radius: 5%;
 }
 
 .texto-derecha-maca {
-  margin-bottom: 1em;
+  font-size: 18px;
 }
 
 .para-llegar {
   display: inline-block;
   font-weight: 700;
   text-align: center;
+  margin-bottom: auto;
 }
 
 .como-equipo {
@@ -97,6 +97,7 @@ para la versión de teléfono */
 .numeros {
   display: flex;
   flex-wrap: wrap;
+  font-size: 18px;
   justify-content: center;
   align-items: center;
   margin-top: 1em;
@@ -128,6 +129,7 @@ para la versión de teléfono */
 }
 
 .footer {
+  font-size: 18px;
   background-color: #F2F2F2;
   height: 90%;
   width: 97%;
@@ -205,18 +207,21 @@ tr {
   font-size: 16px;
   font-weight: 600;
   width: 30%;
-  margin-left: 1em;
+  margin-left: 3%;
   margin-right: 1em;
-  margin-top: 1rem;
+  margin-top: 1em;
   text-decoration: none;
   color: #FF009E;
+}
+
+.link-to-website-jobs {
+  margin-top: 1em;
 }
 
 .logo-jobs {
   align-self: flex-start;
   height: 10%;
   margin-left: 3%;
-  margin-top: 0.8em;
 }
 
 #resumator-job-title {
@@ -224,13 +229,12 @@ tr {
   font-weight: 600;
   font-size: 22px;
   margin-left: 3%;
-  margin-top: 0.8em;
-  margin-bottom: 0.4em;
+  height: 10px;
 }
 
 .location-div-jobs {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 #resumator-job-location {
@@ -258,7 +262,7 @@ tr {
   line-height: 1.8;
   height: 2em;
   padding-left: 1.8em;
-  margin-left: 0.5em;
+  margin-left: 1%;
   margin-right: 0.5em;
 }
 
@@ -275,6 +279,7 @@ tr {
   width: 13em;
   height: 2em;
   padding-left: 1em;
+  margin-left: 1%;
   margin-right: 1em;
 }
 
@@ -290,7 +295,6 @@ tr {
 }
 
 .resumator-resume-text {
-  font-size: small;
   padding: 2px;
 }
 
@@ -305,7 +309,7 @@ tr {
 
 #resumator-submit-resume {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   border: 1px solid transparent;
   width: 100%;
   margin-top: 1em;
@@ -320,7 +324,7 @@ tr {
   text-align: center;
   margin-top: 3em;
   margin-bottom: 3em;
-  font-size: 12px;
+  font-size: 16px;
   color: #7D7D7D;
 }
 
@@ -349,7 +353,7 @@ tr {
   background-color: #FFE521;
 }
 
-/* Las siguientes reglas son para tablets y desktop */
+/* Las siguientes reglas son para tablets */
 
 @media only screen and (min-width: 750px) {
 
@@ -366,7 +370,6 @@ tr {
     font-size: 20px;
     width: auto;
     margin-right: 3%;
-    margin-top: 2.8rem;
   }
 
   .primera-foto {
@@ -402,6 +405,7 @@ tr {
 
   .texto-derecha-maca {
     flex-direction: column;
+    font-size: 20px;
   }
 
   .como-equipo {
@@ -429,32 +433,33 @@ tr {
   }
 
   .header-postulacion {
-    height: 14em;
+    height: 10em;
   }
 
   .link-to-jobs, .link-to-jobs:visited {
-    font-size: small;
+    font-size: 20px;
+    width: auto;
     margin-left: 3%;
-    margin-top: 2.5em;
   }
 
   .logo-jobs {
     margin-right: 97%;
-    height: 7%;
+    margin-top: -15px;
+    height: auto;
   }
 
   #resumator-job-title {
-    font-size: 22px;
-    height: 1.5em;
-    margin-top: 0;
-    margin-left: 3%;
-    margin-bottom: -1em;
+    height: 1px;
+    margin-top: -10px;
   }
 
   .location-div-jobs {
-    margin-left: 2%;
-    padding-right: 97%;
+    flex-direction: row;
+    gap: 15px;
     width: 0%;
+    padding-right: 97%;
+    margin-left: 1.8%;
+    margin-top: -5px;
   }
 
   #resumator-job-type {
@@ -471,12 +476,12 @@ tr {
   .description-application-container {
     display: flex;
     flex-direction: row;
-    margin-top: 16em;
+    margin-top: 11em;
   }
 
   #resumator-job-description {
     width: 90%;
-    font-size: 12px;
+    font-size: 20px;
     text-align: left;
     white-space: pre-line;
     margin-left: 3%;
@@ -487,13 +492,13 @@ tr {
   .application-footer-container {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
     width: 70%;
     margin-right: 3%;
   }
 
   .footer-postulacion {
     margin-top: 3em;
-    font-size: 10px;
   }
 
   .yellow-footer {
@@ -523,6 +528,22 @@ tr {
   .maca {
     max-width: 100%;
     max-height: 40vh;
+  }
+
+  .texto-derecha-maca {
+    font-size: 24px;
+  }
+
+  .numeros {
+    font-size: 24px;
+  }
+
+  .location-div-jobs {
+    margin-left: 2.3%;
+  }
+
+  .footer {
+    font-size: 24px;
   }
 
 }
