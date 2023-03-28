@@ -58,6 +58,7 @@ para la versión de teléfono */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 .nuestra-mision {
@@ -84,7 +85,7 @@ para la versión de teléfono */
   display: inline-block;
   font-weight: 700;
   text-align: center;
-  margin-bottom: auto;
+  margin-bottom: 1em;
 }
 
 .como-equipo {
@@ -316,6 +317,13 @@ tr {
   padding: 15px 0;
   color: #fff;
   background-color: #FF009E;
+}
+
+/* Para que el botón de enviar solicitud no se vea
+reondeado en ipnone */
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 .footer-postulacion {
