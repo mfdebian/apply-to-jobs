@@ -410,7 +410,6 @@ input {
   left: 0px;
   bottom: 0;
   background-color: #FFE521;
-
 }
 
 /* Las siguientes reglas son para tablets */
@@ -565,6 +564,12 @@ input {
     margin-top: 3em;
   }
 
+  .confirmation-container {
+    font-size: 24px;
+    width: 90%;
+    margin-top: 40vh;
+    margin-left: 5%;
+  }
 }
 
 /* Las siguientes reglas son para desktop */
