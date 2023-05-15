@@ -33,9 +33,9 @@ para la versión de teléfono */
 .link-to-website, .link-to-website:visited {
   display: block;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 11px;
   text-align: right;
-  width: 40%;
+  width: 20%;
   margin-left: auto;
   margin-top: 1.4rem;
   margin-right: 3%;
@@ -205,7 +205,7 @@ tr {
 
 .link-to-jobs, .link-to-jobs:visited {
   display: block;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 600;
   width: 30%;
   margin-left: 3%;
@@ -215,13 +215,23 @@ tr {
   color: #FF009E;
 }
 
-.link-to-website-jobs {
+
+.link-to-website-apply, .link-to-website-apply:visited {
+  display: block;
+  font-weight: 600;
+  font-size: 11px;
+  text-align: right;
+  width: 20%;
+  margin-left: auto;
   margin-top: 1em;
+  margin-right: 3%;
+  text-decoration: none;
+  color: #FF009E;
 }
 
 .logo-jobs {
   align-self: flex-start;
-  height: 10%;
+  height: 9%;
   margin-left: 3%;
 }
 
@@ -297,6 +307,7 @@ tr {
 
 .resumator-resume-text {
   padding: 2px;
+  font-size: 11px;
 }
 
 .resumator-field {
@@ -421,13 +432,13 @@ input {
   }
 
   .logo {
-    height: 25%;
     margin-top: 2.4rem;
   }
 
   .link-to-website, .link-to-website:visited {
-    font-size: 20px;
+    font-size: 14px;
     width: auto;
+    margin-top: 6vh;
     margin-right: 3%;
   }
 
@@ -496,15 +507,21 @@ input {
   }
 
   .link-to-jobs, .link-to-jobs:visited {
-    font-size: 20px;
+    font-size: 14px;
     width: auto;
     margin-left: 3%;
+  }
+
+  .link-to-website-apply, .link-to-website-apply:visited {
+    font-size: 14px;
+    width: auto;
+    margin-top: 1em;
+    margin-right: 3%;
   }
 
   .logo-jobs {
     margin-right: 97%;
     margin-top: -15px;
-    height: auto;
   }
 
   #resumator-job-title {
@@ -575,6 +592,11 @@ input {
 /* Las siguientes reglas son para desktop */
 
 @media only screen and (min-width: 1325px) {
+  
+  .link-to-website, .link-to-website:visited {
+    margin-top: 7vh;
+  }
+  
   .para-llegar {
     margin-left: 5%;
   }
