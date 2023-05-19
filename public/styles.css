@@ -390,6 +390,21 @@ input {
   margin-top: 1.8rem;
 }
 
+.link-to-website-confirmation, .link-to-website-confirmation:visited {
+  display: block;
+  font-weight: 600;
+  font-size: 11px;
+  text-align: right;
+  width: 20%;
+  margin-top: 1.5rem;
+  margin-right: 3%;
+  padding-left: 76%;
+  text-decoration: none;
+  color: #FF009E;
+  position: fixed;
+  top: 0;
+}
+
 .confirmation-container {
   display: flex;
   flex-direction: column;
@@ -587,6 +602,11 @@ input {
     margin-top: 40vh;
     margin-left: 5%;
   }
+
+  .link-to-website-confirmation, .link-to-website-confirmation:visited {
+    font-size: 14px;
+    margin-top: 1.8rem;
+  }
 }
 
 /* Las siguientes reglas son para desktop */
@@ -631,6 +651,12 @@ input {
 
   .footer {
     font-size: 24px;
+  }
+
+  .link-to-website-confirmation, .link-to-website-confirmation:visited {
+    padding-left: 82%;
+    margin-top: 2rem;
+    width: 15vw;
   }
 
 }
